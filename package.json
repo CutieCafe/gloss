@@ -1,0 +1,25 @@
+{
+  "name": "gloss-oss",
+  "version": "1.0.0",
+  "description": "Open-source components of Gloss",
+  "main": "index.js",
+  "scripts": {
+    "task": "cd tasks && node TaskManager.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CutieCafe/gloss.git"
+  },
+  "author": "Cutie Cafe <developers@cutie.cafe>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/CutieCafe/gloss/issues"
+  },
+  "homepage": "https://github.com/CutieCafe/gloss#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "turndown": "^6.0.0"
+  }
+}
