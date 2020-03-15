@@ -1,4 +1,4 @@
-let taskData;
+let taskData = {};
 
 const fs = require("fs");
 
