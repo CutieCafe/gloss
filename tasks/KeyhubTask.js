@@ -28,7 +28,8 @@ module.exports = class KeyHubTask extends Task {
                     image: {
                         url: $$(".img-fluid").attr("src")
                     }
-                }
+                },
+                type: "giveaway/keyhub"
             });
 
             prev.push(parseInt(pElem.split("/")[2]));
